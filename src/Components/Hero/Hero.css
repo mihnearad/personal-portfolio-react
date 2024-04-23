@@ -81,7 +81,7 @@
 
 /* Media queries for mobile view */
 
-@media (max-width: 768px) {
+@media (max-width: 1364px) {
   .hero img {
     margin-top: 30px;
     width: 260px;

@@ -34,6 +34,7 @@
   border-radius: 10px;
   border: 3px solid white;
   cursor: pointer;
+
 }
 
 .projects-container {
@@ -46,6 +47,11 @@
 .projects-format h3 {
   font-size: 28px;
   font-weight: 600;
+  
+}
+.projects-format a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits color from parent element */
 }
 
 .projects-format h2 {
@@ -111,7 +117,7 @@
   .projects-format p {
     font-size: 18px;
     line-height: 32px;
-    max-width: 200px;
+    max-width: 500px;
   }
 
   .projects-container {
@@ -121,5 +127,12 @@
 
   .projects-readmore img {
     width: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 }
