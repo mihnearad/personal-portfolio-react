@@ -8,7 +8,6 @@
     "build:css": "tailwind build src/tailwind.css -o src/output.css",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-    
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
@@ -16,6 +15,7 @@
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
@@ -28,7 +28,4 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   }
-  
 }
-
-

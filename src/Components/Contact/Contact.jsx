@@ -3,7 +3,6 @@ import './Contact.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
-import call_icon from '../../assets/call_icon.svg';
 
 const Contact = () => {
     return (
@@ -15,9 +14,14 @@ const Contact = () => {
 
             <div className="contact-section">
                 <div className="contact-left">
+
+                <div className="contact-text">
+
                     <h1>Let's talk</h1>
                     <p>Do you want to know more about my projects?</p>
                     <p>Do you have any suggestions? Let me know!</p>
+
+                </div>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt='' />

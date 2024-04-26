@@ -26,9 +26,7 @@ const Footer = () => {
           2024 Rad Limited. All Rights Reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>Privacy Policy</p>
-          <p>Terms of Service</p>
-          <p>Legal</p>
+          <a href="/privacy-policy">Privacy Policy</a>
         </div>
       </div>
     </div>

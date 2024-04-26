@@ -35,8 +35,13 @@
 .contact-left {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
+
+.contact-text {
+  margin-bottom: 10px;
+}
+
 
 .contact-left h1 {
   font-size: 80px;
@@ -179,6 +184,7 @@
   .contact-right textarea {
     font-size: 16px;
     padding: 10px ;
+    width: '390px'
   }
 
   .contact-right button {

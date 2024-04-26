@@ -80,10 +80,18 @@
   font-size: 18px;
 }
 
-.footer-bottom-right {
+.footer-bottom-right a {
   display: flex;
   gap: 50px;
   margin-bottom: 50px;
+  text-decoration: none;
+  color: white
+
+}
+
+.footer-bottom-right a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 @media (max-width: 768px) {
