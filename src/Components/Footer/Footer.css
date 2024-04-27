@@ -1,3 +1,4 @@
+
 .footer {
   margin: 50px 140px;
   display: flex;
@@ -94,7 +95,7 @@
   transition: 0.3s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .footer {
     margin: 50px 30px;
   }

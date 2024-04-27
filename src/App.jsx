@@ -23,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <>
+              <SplashScreen />
               <Hero />
               <About />
               <Projects />

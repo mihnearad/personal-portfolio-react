@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/Scuba.jpg";
+import { FaFileExcel, FaProjectDiagram, FaUsers } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -26,27 +27,34 @@ const About = () => {
                 I have a strong background in IT and a proven track record of
                 delivering projects on time and within budget. I am a highly
                 motivated individual with a passion for technology and a desire
-                to succeed. I have excellent communication skills and the
-                ability to work well under pressure. I am a team player and
-                enjoy working with others to achieve common goals. I am always
-                looking for new challenges and opportunities to learn and grow.{" "}
+                to succeed.{" "}
               </p>
+              <p>
+                {" "}
+                I have excellent communication skills and the ability to work
+                well under pressure. I am a team player and enjoy working with
+                others to achieve common goals. I am always looking for new
+                challenges and opportunities to learn and grow.{" "}
+              </p>
+            </div>
+            {/* <div className="about-skills-header">
+              <h1>Key Skills</h1>
             </div>
 
             <div className="about-skills">
               <div className="about-skill">
-                <p> Team Leadership </p> <hr style={{ width: "100%" }} />
+                <FaUsers />
+                <p>Team Leadership</p>
               </div>
               <div className="about-skill">
-                <p> SAP Project Management </p> <hr style={{ width: "100%" }} />
+                <FaProjectDiagram />
+                <p>SAP | IT Project Management</p>
               </div>
               <div className="about-skill">
-                <p> Python </p> <hr style={{ width: "70%" }} />
+                <FaFileExcel/>
+                <p>Business Analysis</p>
               </div>
-              <div className="about-skill">
-                <p> React </p> <hr style={{ width: "20%" }} />
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="about-achievements">

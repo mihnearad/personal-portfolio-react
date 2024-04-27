@@ -23,7 +23,7 @@ const Hero = () => {
             LinkedIn
           </a>
         </button>
-        <div className="hero-resume">Download CV</div>
+        <div className="hero-resume">Get CV</div>
       </div>
     </div>
   );

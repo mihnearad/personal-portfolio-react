@@ -1,25 +1,23 @@
-/* Default styles */
-
 .hero {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   gap: 35px;
+  padding: 20px; /* Add padding for smaller screens */
 }
 
 .hero img {
   margin-top: 30px;
   width: auto;
-  height: 300px;
+  height: 250px; /* Reduce height for smaller screens */
   border-radius: 50%;
-  border: 5px solid white;
+  border: 3px solid white; /* Reduce border size for smaller screens */
 }
 
 .hero h1 {
   font-size: 4vw; /* 4% of the viewport width */
   width: 90%;
   text-align: center;
-  justify-content: center;
 }
 
 .hero-name {
@@ -33,91 +31,86 @@
   text-align: center;
   width: 70%;
   font-weight: 300;
-  line-height: 40px;
-  font-size: 25px;
+  line-height: 30px; /* Reduce line height for smaller screens */
+  font-size: 20px; /* Smaller font size */
 }
 
 .hero-action {
   display: flex;
-  align-items: center;
-  gap: 25px;
+  flex-direction: row; /* Ensure elements are side-by-side */
+  gap: 25px; /* Maintain space between buttons */
+  justify-content: center; /* Center the elements horizontally */
+  align-items: center; /* Align the elements vertically */
   font-weight: 500;
   margin-bottom: 50px;
-  font-size: 24;
-}
-.hero-connect {
-  padding: 20px 40px;
-  border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
-  font-size: 22px;
-  cursor: pointer;
-  border: 3px solid #fff;
-  text-decoration: none;
-  color: white;
+  font-size: 24px;
 }
 
-.hero-connect a {
-  text-decoration: none;
-  color: white;
-}
-
+.hero-connect,
 .hero-resume {
-  padding: 20px 40px;
-  border-radius: 50px;
+  padding: 15px 30px; /* Adjust padding for smaller screens */
+  border-radius: 25px; /* Smaller border radius */
+  font-size: 18px; /* Smaller font size */
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
-  font-size: 22px;
   cursor: pointer;
-  border: 3px solid #fff;
-}
-
-.hero-connect:hover {
-  background: linear-gradient(267deg, #257cda 0.36%, #23b9e1);
-  scale: 1.05;
+  border: 2px solid #fff; /* Reduced border size */
   transition: 0.3s;
 }
+
+.hero-connect a,
+.hero-resume a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-connect:hover,
 .hero-resume:hover {
-  background: linear-gradient(267deg, #257cda 0.36%, #23b9e1);
   scale: 1.05;
   transition: 0.3s;
+  background: linear-gradient(267deg, #257cda 0.36%, #23b9e1);
 }
 
-/* Media queries for mobile view */
+@media (max-width: 768px) {
+  .hero {
+    gap: 20px; /* Reduce gap for smaller screens */
+  }
 
-@media (max-width: 1364px) {
   .hero img {
-    margin-top: 30px;
-    width: 260px;
-    height: auto;
+    height: 200px; /* Smaller height for smaller screens */
   }
 
   .hero h1 {
-    margin-top: 0px;
-    width: 90%;
-    font-size: 40px;
+    font-size: 6vw; /* Adjust font size for smaller screens */
   }
 
   .hero-description {
-    width: 85%;
-    font-size: 18px;
-    line-height: 32px;
-    margin: 10px 0px;
+    width: 90%; /* Adjust width for smaller screens */
+    font-size: 18px; /* Smaller font size */
   }
 
-  .hero action {
-    font-size: 18px;
-    gap: 16px;
-    font-weight: 500;
-    margin-bottom: 30px;
+  .hero-action {
+    flex-direction: row; /* Switch to row layout */
+    gap: 20px; /* Reduce gap between action items */
   }
 
-  .hero-connect {
-    border-radius: 40px;
-    max-width: 50%;
-  }
-
+  .hero-connect,
   .hero-resume {
-    padding: 20px 10px;
-    border-radius: 40px;
-    max-width: 50%;
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 10px; /* Reduce padding for very small screens */
+  }
+
+  .hero h1 {
+    font-size: 7vw; /* Adjust font size for very small screens */
+  }
+
+  .hero-description {
+    line-height: 25px; /* Reduce line height for better readability */
+    font-size: 16px; /* Smaller font size */
   }
 }

@@ -70,7 +70,7 @@
 
 
 
-@media (max-width: 1364px) {
+@media (max-width: 1400px) {
   .navbar {
     margin: 20px 50px;
   }
@@ -90,7 +90,7 @@
     display: block;
     position: relative;
     top: 30px;
-    left: 120px;
+    left: 90px;
     width: 30px;
     z-index: 3;
     transition: 0.5s;
@@ -103,7 +103,7 @@
     top: 0;
     gap: 30px;
     background-color: #1f0016;
-    width: 350px;
+    width: 250px;
     height: 100%;
     z-index: 2;
     transition: right 0.5s;
