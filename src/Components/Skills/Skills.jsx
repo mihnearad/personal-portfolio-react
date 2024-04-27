@@ -23,6 +23,8 @@ const sliderSettings = {
   slidesToScroll: 3,
   autoplay: true,
   autoplaySpeed: 5000,
+  arrows: false, 
+
 };
 
 const Skills = () => {
@@ -40,7 +42,7 @@ const Skills = () => {
           </div>
           <div className="skill">
             <SiSap className="skill-icon skill-sap" />
-            <p className="skill-text">SAP Project Management</p>
+            <p className="skill-text">SAP</p>
           </div>
           <div className="skill">
             <FaFileExcel className="skill-icon skill-excel" />

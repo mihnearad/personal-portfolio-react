@@ -1,9 +1,10 @@
+/* General Styles for the Carousel */
 .skills-parent {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 80px; /* Default gap for desktop */
   margin: 80px 170px; /* Default margin for desktop */
   margin-bottom: 150px;
 }
@@ -28,42 +29,119 @@
   filter: brightness(0.8);
 }
 
+/* Skills Carousel */
 .skills-carousel {
-  display: block; /* Block-level display to avoid Flexbox interference */
-  width: 100%; /* Ensure full-width carousel */
-  padding: 20px; /* Padding for spacing */
+  display: block;
+  width: 100%; 
+  padding: 20px;
 }
 
 .skill {
-  text-align: center; /* Center text and icons */
-  padding: 20px; /* Padding within each skill */
+  text-align: center;
+  padding: 20px;
 }
 
 .skill p {
-  font-size: 25px; /* Font size for skill descriptions */
-  color: #fff; /* Text color */
+  font-size: 25px;
+  color: #fff;
 }
 
 .skill-icon {
-  font-size: 90px; /* Set icon size */
+  font-size: 90px;
 }
 
 .skill-powerbi {
-  color: #f2c811; /* Specific color for PowerBI */
+  color: #f2c811;
 }
 
 .skill-excel {
-  color: #217346; /* Specific color for Excel */
+  color: #217346;
 }
 
 .skill-sap {
-  color: #3f99d3; /* Specific color for SAP */
+  color: #3f99d3;
 }
 
 .skill-leadership {
-  color: #ff681f; /* Specific color for Leadership */
+  color: #ff681f;
 }
 
 .skill-python {
-  color: #5484aa; /* Specific color for Python */
+  color: #5484aa;
+}
+
+/* Mobile View Adaptations */
+@media (max-width: 768px) {
+  /* Adjust the parent container */
+  .skills-parent {
+    gap: 20px; /* Reduce the gap for smaller screens */
+    margin: 40px 20px; /* Adjust the margins */
+  }
+
+  /* Reduce the font size for titles */
+  .skills-title h1 {
+    font-size: 10vw; /* Smaller font size for titles */
+    padding: 0px 0px;
+
+  }
+
+  /* Reduce padding for the carousel */
+  .skills-carousel {
+    padding: 10px; /* Smaller padding for compactness */
+  }
+
+  /* Reduce padding and font size for skill descriptions */
+  .skill {
+    padding: 5px; /* Smaller padding */
+  }
+
+  .skill p {
+    font-size: 4vw; /* Smaller font size */
+  }
+
+  .skill-icon {
+    font-size: 13vw; /* Smaller icon size */
+  }
+
+
+.skills-title img {
+  width: 60%;}
+}
+
+/* Mobile View Adaptations */
+@media (min-width: 768px) and (max-width: 1400px) {
+  /* Adjust the parent container */
+  .skills-parent {
+    gap: 20px; /* Reduce the gap for smaller screens */
+    margin: 80px 40px; /* Adjust the margins */
+  }
+
+  /* Reduce the font size for titles */
+  .skills-title h1 {
+    font-size: 10vw; /* Smaller font size for titles */
+    padding: 0px 0px;
+
+  }
+
+  /* Reduce padding for the carousel */
+  .skills-carousel {
+    padding: 10px; /* Smaller padding for compactness */
+  }
+
+  /* Reduce padding and font size for skill descriptions */
+  .skill {
+    padding: 5px; /* Smaller padding */
+  }
+
+  .skill p {
+    font-size: 3vw; /* Smaller font size */
+  }
+
+  .skill-icon {
+    font-size: 11vw; /* Smaller icon size */
+  }
+
+
+.skills-title img {
+  width: 60%;}
 }
