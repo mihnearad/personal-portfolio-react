@@ -1,0 +1,69 @@
+.skills-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px; /* Default margin for desktop */
+  margin-bottom: 150px;
+}
+
+/* Skills Title */
+.skills-title {
+  position: relative;
+}
+
+.skills-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.skills-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.8);
+}
+
+.skills-carousel {
+  display: block; /* Block-level display to avoid Flexbox interference */
+  width: 100%; /* Ensure full-width carousel */
+  padding: 20px; /* Padding for spacing */
+}
+
+.skill {
+  text-align: center; /* Center text and icons */
+  padding: 20px; /* Padding within each skill */
+}
+
+.skill p {
+  font-size: 25px; /* Font size for skill descriptions */
+  color: #fff; /* Text color */
+}
+
+.skill-icon {
+  font-size: 90px; /* Set icon size */
+}
+
+.skill-powerbi {
+  color: #f2c811; /* Specific color for PowerBI */
+}
+
+.skill-excel {
+  color: #217346; /* Specific color for Excel */
+}
+
+.skill-sap {
+  color: #3f99d3; /* Specific color for SAP */
+}
+
+.skill-leadership {
+  color: #ff681f; /* Specific color for Leadership */
+}
+
+.skill-python {
+  color: #5484aa; /* Specific color for Python */
+}

@@ -8,6 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import PrivacyPolicy from './PrivacyPolicy';
+import Skills from "./Components/Skills/Skills";
 
 /**
  * The main component of the application.
@@ -27,6 +28,7 @@ const App = () => {
               <Hero />
               <About />
               <Projects />
+              <Skills />
               <Contact />
               <Footer />
             </>

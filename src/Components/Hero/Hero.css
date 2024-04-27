@@ -4,6 +4,7 @@
   align-items: center;
   gap: 35px;
   padding: 20px; /* Add padding for smaller screens */
+
 }
 
 .hero img {
@@ -32,7 +33,7 @@
   width: 70%;
   font-weight: 300;
   line-height: 30px; /* Reduce line height for smaller screens */
-  font-size: 20px; /* Smaller font size */
+  font-size: 22px; /* Smaller font size */
 }
 
 .hero-action {
