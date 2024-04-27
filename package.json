@@ -8,7 +8,8 @@
     "build:css": "tailwind build src/tailwind.css -o src/output.css",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start":"npx serve -s dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
