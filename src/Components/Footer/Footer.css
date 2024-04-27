@@ -1,4 +1,3 @@
-
 .footer {
   margin: 50px 140px;
   display: flex;
@@ -84,10 +83,9 @@
 .footer-bottom-right a {
   display: flex;
   gap: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-decoration: none;
-  color: white
-
+  color: white;
 }
 
 .footer-bottom-right a:hover {
@@ -95,9 +93,9 @@
   transition: 0.3s;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1000px) {
   .footer {
-    margin: 50px 30px;
+    margin: 40px; /* Reduce margin for tablet screens */
   }
 
   .footer-top {
@@ -110,6 +108,7 @@
     font-size: 14px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .footer-top-left img {
@@ -125,8 +124,15 @@
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
-
   }
 
+  .footer-email-input {
+    width: 50%;
+  }
+}
 
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .footer {
+    margin: 40px 40px; /* Reduce margin for tablet screens */
+  }
 }

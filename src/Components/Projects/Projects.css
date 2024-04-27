@@ -134,4 +134,13 @@
   .projects {
     margin: 40px 20px;
   }
+
+  .projects-title h1 {
+    font-size: 7vw;
+    padding: 0;
+  }
+
+  .projects-title img {
+    width: 60%;
+  }
 }

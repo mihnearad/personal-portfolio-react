@@ -216,6 +216,14 @@
     padding: 0px 0px;
   }
 
+  .about-title img {
+    width: 60%;
+  }
+
+  .about-left img {
+    height: 300px;
+  }
+
   .about-para {
     font-size: 20px;
     line-height: 30px;
@@ -226,14 +234,6 @@
 
   .about-sections {
     gap: 25px;
-  }
-
-  .about-left img {
-    height: 300px;
-  }
-
-  .about-title img {
-    width: 60%;
   }
 
   .about-achievement h1 {
