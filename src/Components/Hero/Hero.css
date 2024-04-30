@@ -4,7 +4,6 @@
   align-items: center;
   gap: 35px;
   padding: 20px; /* Add padding for smaller screens */
-
 }
 
 .hero img {
@@ -20,12 +19,39 @@
   width: 90%;
   text-align: center;
 }
-
 .hero-name {
-  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  display: inline-flex; /* Allow each character to be an individual element */
+  background: linear-gradient(270deg, #3da686 10%, #2196f3 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-right: 4px solid #fefefe; /*This will be the blinking cursor*/
+  animation: cursor 1s infinite step-end;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+@keyframes typing {
+  0% { width: 0ch; } /* Text is hidden */
+  50% { width: 15ch; } /* The entire header will be typed out 1 character at a time */
+  80% { width: 15ch; } /* Text stays visible */
+  90% { width: 0ch; } /* Text is deleted */
+  100% { width: 0ch; } /* Text stays hidden */
+}
+
+@keyframes cursor{
+  0%, 100%{border-color: transparent;}
+  50%{border-color: #ffffff;}
+}
+
+
+.hero-name span:hover {
+  background: white; /* Set the background color to white */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  scale: 1.1;
 }
 
 .hero-description {
@@ -52,7 +78,7 @@
   padding: 15px 30px; /* Adjust padding for smaller screens */
   border-radius: 25px; /* Smaller border radius */
   font-size: 18px; /* Smaller font size */
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
+  background: linear-gradient(267deg, #3da686 0.36%, #2196f3);
   cursor: pointer;
   border: 2px solid #fff; /* Reduced border size */
   transition: 0.3s;

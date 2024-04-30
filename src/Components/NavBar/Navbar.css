@@ -27,7 +27,7 @@
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
+  background: linear-gradient(267deg, #3da686 0.36%, #2196f3);
   font-size: 22px;
   cursor: pointer;
   border: 3px solid #fff;
@@ -102,7 +102,7 @@
     align-items: center;
     top: 0;
     gap: 30px;
-    background-color: #1f0016;
+    background-color: #3f3f3f;
     width: 250px;
     height: 100%;
     z-index: 2;

@@ -1,14 +1,46 @@
-@import 'utilities.css';
+@import "utilities.css";
 
-
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+
 }
 
-body{
+body {
   height: 100vh;
   background: #161513;
   color: white;
   font-family: outfit;
+  overflow-x: hidden;
+
 }
+.back-to-top {
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  position: fixed; /* Fixed position at the bottom-right */
+  bottom: 20px; /* Position 20px from the bottom */
+  right: 20px; /* Position 20px from the right */
+  background-color: #3da686; /* Background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular shape */
+  padding: 10px; /* Padding for spacing */
+  height: 40px; /* Fixed height */
+  width: 40px; /* Fixed width */
+  font-size: 34px; /* Font size for visibility */
+  cursor: pointer; /* Pointer cursor on hover */
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for appearing/disappearing */
+}
+
+.back-to-top.show {
+  opacity: 1; /* Show when scrolling down */
+}
+
+.back-to-top:hover {
+  background-color: #2196f3; /* Background color change on hover */
+}
+
+

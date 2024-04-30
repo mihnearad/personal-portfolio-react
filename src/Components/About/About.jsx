@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/Scuba.jpg";
+import profile_img from "../../assets/202404_MihneaProfil.jpg";
 import { FaFileExcel, FaProjectDiagram, FaUsers } from "react-icons/fa";
 
 const About = () => {
@@ -24,17 +24,16 @@ const About = () => {
             <div className="about-para">
               <p>
                 {" "}
-                I have a strong background in IT and a proven track record of
-                delivering projects on time and within budget. I am a highly
-                motivated individual with a passion for technology and a desire
-                to succeed.{" "}
+                I thrive on turning challenging IT projects into triumphs. I'm all about pushing the envelope
+                with technology—whether it's integrating SAP systems or leading digital transformations
+                to keep businesses ahead of the curve.{" "}
               </p>
               <p>
                 {" "}
-                I have excellent communication skills and the ability to work
-                well under pressure. I am a team player and enjoy working with
-                others to achieve common goals. I am always looking for new
-                challenges and opportunities to learn and grow.{" "}
+                I'm a strong believer in teamwork and clear communication, qualities that have helped me
+                and my teams smash goals and exceed expectations. Whether we're wrangling data migrations
+                or enhancing system security, I'm always keen to roll up my sleeves and get stuck in.
+                I love learning new things and eagerly seek out opportunities to grow both personally and professionally.{" "}
               </p>
             </div>
             {/* <div className="about-skills-header">

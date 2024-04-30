@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./Components/NavBar/Navbar";
 import Hero from "./Components/Hero/Hero";
@@ -8,7 +8,8 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import PrivacyPolicy from './PrivacyPolicy';
-import Skills from "./Components/Skills/Skills";
+import SkillsCloud from "./Components/SkillsCloud/SkillsCloud";
+import './index.css';
 
 /**
  * The main component of the application.
@@ -16,7 +17,29 @@ import Skills from "./Components/Skills/Skills";
  * @returns {JSX.Element} The rendered App component.
  */
 
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+
 const App = () => {
+  const [isVisible, setIsVisible] = useState(false); // State to track button visibility
+
+  const handleScroll = () => {
+    if (window.scrollY > 200) { // Button appears when scrolled beyond 200px
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll); // Add event listener
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Clean up
+    };
+  }, []);
+
   return (
     <Router>
       <div>
@@ -24,13 +47,16 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <>
-              <SplashScreen />
+
               <Hero />
               <About />
               <Projects />
-              <Skills />
+              <SkillsCloud/>
               <Contact />
               <Footer />
+              <div className={`back-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
+                ↑
+              </div>
             </>
           } />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

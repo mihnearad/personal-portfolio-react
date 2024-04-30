@@ -58,7 +58,7 @@
   gap: 60px;
   font-size: 26px;
   font-weight: 500;
-  line-height: 48px;
+  line-height: 40px;
 }
 
 /* About Skills Header */
@@ -94,7 +94,7 @@
   width: 50%;
   height: 8px;
   border-radius: 50px;
-  background: linear-gradient(270deg, #df8908 10%, #b415ff 106.28%);
+  background: linear-gradient(270deg, #2196F3 10%, #b415ff 106.28%);
 }
 
 .about-skill:hover {
@@ -120,7 +120,7 @@
 }
 
 .about-achievement:hover {
-  background: linear-gradient(270deg, #ffb340 10%, #c549ff 106.28%);
+  background: linear-gradient(270deg, #3DA686 10%, #2196F3 106.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -139,7 +139,7 @@
 .about-achievement h1 {
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 10%, #b415ff 106.28%);
+  background: linear-gradient(270deg, #3DA686 10%, #2196F3 106.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

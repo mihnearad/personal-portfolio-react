@@ -57,7 +57,7 @@
   border-radius: 50px;
   font-size: 20px;
   padding: 10px 10px;
-  background: linear-gradient(270deg, #ffb340 10%, #c549ff 106.28%);
+  background: linear-gradient(270deg, #2196F3 10%, #3DA686 106.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,7 +66,7 @@
 }
 
 .footer-subscribe button:hover {
-  background: linear-gradient(270deg, #c549ff 10%, #ffb340 106.28%);
+  background: linear-gradient(270deg, #3DA686 10%, #2196F3 106.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -93,7 +93,7 @@
   transition: 0.3s;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .footer {
     margin: 40px; /* Reduce margin for tablet screens */
   }
@@ -127,11 +127,11 @@
   }
 
   .footer-email-input {
-    width: 50%;
+    width: 100%;
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1300px) {
+@media (min-width: 800px) and (max-width: 1300px) {
   .footer {
     margin: 40px 40px; /* Reduce margin for tablet screens */
   }
