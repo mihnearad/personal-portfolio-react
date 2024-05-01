@@ -31,6 +31,7 @@
   font-size: 22px;
   cursor: pointer;
   border: 3px solid #fff;
+  transition: 0.3s;
 }
 
 .nav-connect:hover {
