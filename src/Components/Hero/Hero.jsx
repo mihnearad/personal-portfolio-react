@@ -31,7 +31,7 @@ const Hero = () => {
         </button>
         <div className="hero-resume">
           <a
-            href="https://drive.google.com/file/d/1wH8vcMPK3PZPedeJjgxx2giBu5Y7CgeP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1UVuvg9R_BqXsRw_ySab1KRDlpw5xkCYO/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >Get CV</a></div>
