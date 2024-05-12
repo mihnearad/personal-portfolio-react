@@ -2,7 +2,7 @@
 
 Welcome to the source code repository for my professional portfolio. This project is a static React website that showcases my IT management expertise, professional highlights, and technical skills. The website is designed to be engaging, responsive, and user-friendly across all devices.
 
-![Website Screenshot](/home/mihnea/mihnearadportofolio_react/ReadMe_Files/WebsiteScreenshot.png)
+![Website Screenshot](ReadMe_Files/WebsiteScreenshot.png)
 
 ## Description
 
