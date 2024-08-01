@@ -8,7 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import PrivacyPolicy from './PrivacyPolicy';
-import SkillsCloud from "./Components/SkillsCloud/SkillsCloud";
+import SkillsTab from "./Components/SkillsTab/SkillsTab";
 import './index.css';
 
 /**
@@ -51,7 +51,7 @@ const App = () => {
               <Hero />
               <About />
               <Projects />
-              <SkillsCloud/>
+              <SkillsTab/>
               <Contact />
               <Footer />
               <div className={`back-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
