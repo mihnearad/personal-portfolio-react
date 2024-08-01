@@ -39,6 +39,8 @@ To get a local copy up and running, follow these steps:
     npm start
     ```
 
+❗ I used wrangler to push it to cloudflare pages for free hosting ❗
+
 ## Usage
 
 After starting the server, open [http://localhost:3000](http://localhost:3000) to view my portfolio in your web browser. Navigate through the website to explore different sections showcasing various aspects of my professional and personal expertise.
