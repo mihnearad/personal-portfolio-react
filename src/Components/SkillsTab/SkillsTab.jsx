@@ -16,9 +16,10 @@ const skillData = {
   Management: [
     { name: "Team Leadership", description: "Leading, inspiring and managing teams effectively." },
     { name: "Project Management", description: "Experience in managing complex IT projects from start to finish." },
-    { name: "SAP", description: "Able to coordinate SAP Projects from blueprinting to GoLive." },
+    { name: "SAP Project Manager", description: "Able to coordinate SAP Projects from blueprinting to GoLive." },
     { name: "Scum Master (PSM I)", description: "Able to efficiently manage projects using Agile methodology." },
     { name: "Budget Management", description: "I can create and implement strcutured IT Budgets for small and medium environments." },
+    { name: "Risk Management", description: "Experience in identifying and managing risks in IT projects." },
   ],
   Analysis: [
     { name: "Business Analysis", description: "Experience in finding and noticing areas of improvement." },
